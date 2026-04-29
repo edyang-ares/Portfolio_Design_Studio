@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "portfolio-design-studio"
+version = "0.1.0"
+description = "Integrated portfolio simulation toolkit"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Edward Yang" }
+]
+dependencies = [
+  "numpy",
+  "pandas",
+  "matplotlib",
+  "scipy",
+  "numpy-financial",
+  "python-dateutil",
+  "sqlalchemy",
+  "openpyxl",
+  "pyxirr",
+  "httpx",
+  "openai",
+  "truststore",
+  "yfinance",
+  "pip-system-certs"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["portfolio_design_studio*"]

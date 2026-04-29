@@ -1,0 +1,33 @@
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Local data / sensitive files
+Data Files/
+
+# Virtual environments
+.venv/
+.venv_test/
+venv/
+env/
+
+# Python build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS/editor
+.DS_Store
+.vscode/
